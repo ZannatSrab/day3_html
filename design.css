@@ -1,0 +1,23 @@
+.section img{
+height: 200px;
+width: 200px;
+}
+.section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: rgb(49, 131, 246);
+    padding: 10px;
+    margin: 0px 50px;
+
+
+}
+.section div {
+    background-color: rgb(249, 228, 200);
+    padding: 10px;
+    border-radius: 10px;
+}
+.section div:hover{
+    background-color: rgb(211, 144, 96);
+    padding: 7px;
+}
